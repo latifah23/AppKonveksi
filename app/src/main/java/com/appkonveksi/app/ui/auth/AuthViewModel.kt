@@ -13,7 +13,7 @@ class AuthViewModel(private val repo: AuthRepository) : ViewModel() {
     val isLogin = repo.isLogin
     val authLogin = MutableLiveData<ActionState<AuthUser>>()
     val authRegister = MutableLiveData<ActionState<AuthUser>>()
-     val authLogout = MutableLiveData<ActionState<Boolean>>()
+    val authLogout = MutableLiveData<ActionState<Boolean>>()
 
     val email = MutableLiveData<String>()
     val password = MutableLiveData<String>()

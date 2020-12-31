@@ -8,5 +8,9 @@
     <string name="login">Login</string>
     <string name="register">Register</string>
     <string name="Full_name">Nama Lengkap</string>
+    <string name="ic_home">Beranda</string>
     <string name="todo">TODO</string>
+    <string name="ic_cook">Cook</string>
+    <string name="ic_favorite">Favorite</string>
+    <string name="ic_profile">Profile</string>
 </resources>

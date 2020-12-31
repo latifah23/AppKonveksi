@@ -1,8 +1,8 @@
 package com.appkonveksi.app.data.model
 
-data class ActionState<T>(
+data class ActionState <T> (
     val data: T? = null,
-    val message: String? = null,
-    val isSuccess: Boolean = true,
-    var isConsumed: Boolean = false
+    val message:String? = null,
+    val isSuccess:Boolean = true,
+    var isConsumed : Boolean = false
 )
